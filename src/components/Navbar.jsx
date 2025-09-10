@@ -1,5 +1,5 @@
 import React from "react";
-import { BookOpen } from "lucide-react";
+import { Train } from "lucide-react";
 
 export default function Navbar({ page, setPage }){
   const nav = [
@@ -14,7 +14,7 @@ export default function Navbar({ page, setPage }){
     <header className="bg-white shadow-sm">
       <div className="container mx-auto flex items-center justify-between p-4">
         <div className="flex items-center gap-3">
-          <BookOpen className="text-indigo-600" />
+          <Train className="text-indigo-600" />
           <h1 className="font-semibold text-lg">SKM AI</h1>
         </div>
         <nav className="text-gray-600">
