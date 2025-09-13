@@ -5,6 +5,7 @@ import Planner from "./pages/Planner";
 import Simulation from "./pages/Simulation";
 import Stabling from "./pages/Stabling";
 import Audit from "./pages/Audit";
+import Complaint from "./components/complaint";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/simulation" element={<Simulation />} />
           <Route path="/stabling" element={<Stabling />} />
           <Route path="/audit" element={<Audit />} />
+          <Route path="/complaint" element={<Complaint />} />
         </Routes>
       </div>
     </div>
